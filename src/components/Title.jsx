@@ -1,6 +1,6 @@
 // routing 
 import { useNavigate } from 'react-router-dom'
-export function Title(){
+export  default function Title(){
     const navigate = useNavigate();
     return <div>
         <div style={{background: "black", color: "azure", padding:"2px", margin:"2px" }} >
